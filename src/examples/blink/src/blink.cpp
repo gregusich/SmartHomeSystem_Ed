@@ -20,7 +20,7 @@ using LoadType = shs::LoadSwitch;
 #endif
 
 LoadType blink(LED_BUILTIN);
-shs::ProgramTimer timer(1000);
+shs::ProgramTimer timer(5000);
 
 void setup()
 {
